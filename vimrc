@@ -13,9 +13,6 @@ set splitright
 "allow backspacing start of insert, eol, autoindent
 set backspace=2
 
-
-
-
 "make tabs turn into spaces
 set shiftwidth=3
 set tabstop=3
@@ -50,7 +47,7 @@ nnoremap <F7> 5<C-W>-
 
 "Change the comment font to be a ligher shade of blue
 " for better readability
-"hi comment ctermfg=blue
+hi comment ctermfg=blue
 
 syntax on
 
